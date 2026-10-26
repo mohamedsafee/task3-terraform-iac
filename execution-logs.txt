@@ -1,0 +1,76 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261026130517
+Username: LAPTOP-2M4LRK6D\moham
+RunAs User: LAPTOP-2M4LRK6D\moham
+Configuration Name: 
+Machine: LAPTOP-2M4LRK6D (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 18596
+PSVersion: 5.1.26100.8328
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8328
+BuildVersion: 10.0.26100.8328
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\execution-logs.txt
+PS C:\Users\moham\task3-terraform> terraform init
+
+PS C:\Users\moham\task3-terraform> terraform fmt -check
+
+PS C:\Users\moham\task3-terraform> terraform validate
+
+PS C:\Users\moham\task3-terraform> terraform plan
+
+PS C:\Users\moham\task3-terraform> terraform state list
+
+PS C:\Users\moham\task3-terraform> terraform show
+
+PS C:\Users\moham\task3-terraform> terraform output
+
+PS C:\Users\moham\task3-terraform> docker ps -a --filter "name=terraform-task3-nginx"
+
+PS C:\Users\moham\task3-terraform> Invoke-WebRequest http://localhost:18081 -UseBasicParsing
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : <!DOCTYPE html>
+                    <html>
+                    <head>
+                    <title>Welcome to nginx!</title>
+                    <style>
+                    html { color-scheme: light dark; }
+                    body { width: 35em; margin: 0 auto;
+                    font-family: Tahoma, Verdana, Arial, sans-serif; }
+                    </style...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Accept-Ranges: bytes
+                    Content-Length: 896
+                    Content-Type: text/html
+                    Date: Mon, 26 Oct 2026 07:36:06 GMT
+                    ETag: "6ad8fc64-380"
+                    Last-Modified: Wed, 21 Oct 2026 ...
+Forms             :
+Headers           : {[Connection, keep-alive], [Accept-Ranges, bytes], [Content-Length, 896], [Content-Type,
+                    text/html]...}
+Images            : {}
+InputFields       : {}
+Links             : {@{outerHTML=<a href="https://nginx.org/">nginx.org</a>; tagName=A; href=https://nginx.org/},
+                    @{outerHTML=<a href="https://community.nginx.org/">community.nginx.org</a>; tagName=A;
+                    href=https://community.nginx.org/}, @{outerHTML=<a href="https://f5.com/nginx">f5.com/nginx</a>;
+                    tagName=A; href=https://f5.com/nginx}}
+ParsedHtml        :
+RawContentLength  : 896
+
+
+
+PS C:\Users\moham\task3-terraform> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261026130630
+**********************
